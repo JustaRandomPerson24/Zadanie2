@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/text_nazwa_zadania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nazwa zadania"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_opis_zadania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Opis zadania"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+</LinearLayout>

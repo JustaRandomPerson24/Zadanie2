@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/pole_nazwa_zadania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nazwa zadania"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/pole_opis_zadania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Opis zadania"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/przycisk_edytuj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edytuj"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
